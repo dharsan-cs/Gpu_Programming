@@ -9,6 +9,12 @@ Note :-
 -> but data_processing - data_movement parallelism is noticible
 -> reason could time( data_processing ) << time( data_movement )
 """
+
+""" 
+This class given set matrix [(mata1 ,matb1 ,matc1) ,(mata2 ,matb2 ,matc2) .... ] ,it perform matrix multiplication process on
+all the datas in dataset efficiently using cuda streams
+"""
+
 class matrix_multiplication:
 
   def __init__(self ):
